@@ -85,6 +85,8 @@ nav{
 .hero_row{
     display: flex;
 }
+
+/* col */
 .hero_col-1 p {
     font-size: 16px;
     font-weight: lighter;
@@ -97,6 +99,7 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     line-height: 1.6;
+    padding-right: 14px;
    
 }
 
@@ -110,4 +113,15 @@ nav{
     width: 69px;
     height: 69px;
     font-size: 68px;
+}
+
+.hero_col-2{
+    width: 66%;
+    position: relative;
+}
+
+.hero_col-2 img{
+    width: 100%;
+    position: absolute;
+    top:0px;
 }
