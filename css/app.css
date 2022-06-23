@@ -101,12 +101,13 @@ nav{
 
 .hero_col-1{
     width: 33%;
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     line-height: 1.6;
     padding-right: 14px;
+    gap: 40px;
    
 }
 
@@ -134,6 +135,9 @@ nav{
 }
 
 /* section plane-business */
+.flex{
+    display: flex;
+}
 .plane-business{
     padding-top: 100px;
 }
@@ -145,4 +149,20 @@ nav{
 .plane-row-card{
     display: flex;
     width: calc(100% / 3);
+    flex-direction: column;
+}
+
+.plane_card main{
+    
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+}
+
+
+.plane_card .body_card{
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+
 }
