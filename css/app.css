@@ -172,7 +172,7 @@ nav{
 }
 
 .plane-row_col{
-    border: 1px solid gray;
+    border: 1px solid rgb(237, 237, 238);
 }
 
 .plane_card main{
@@ -207,5 +207,13 @@ nav{
     padding-top: 60px;
 }
 .plane_card header{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(237, 237, 238);
+}
+
+ .border-gray::after{
+    background: rgb(237, 237, 238);
+    content: "";
+    display: table;
+    width: 40px;
+    height: 1px;
 }
