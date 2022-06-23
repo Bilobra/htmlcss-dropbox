@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>htmlcss-dropbox</title>
     <link rel="stylesheet" href="css/app.css">
 </head>
@@ -11,8 +12,8 @@
     <!-- header+nav -->
     <header>
         <nav class="flex">
-            <div class="logo">
-                <img src="img/logo-small.png" height="30px" alt="Logo dropbox nav">
+            <div class="logo flex">
+                <img src="img/logo-small.png" height="25px" alt="Logo dropbox nav">
             </div>
             <ul class="grow">
                 <li> <a href="#">Perchè Dropbox</a></li>
@@ -23,10 +24,31 @@
                 <li><a href="#">Supporto</a></li>
                 <li><a href="#">Contatta l'ufficio vendite</a></li>
                 <li><a href="#">Accedi</a></li>
-                <li><a href="#">Inizia</a></li>
+                <li class="button blue_button"><a href="#">Inizia</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- main +section -->
+
+    <main>
+        <section class="hero">
+            <div class="container-large">
+                <div class="hero_title">
+                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                </div>
+                <div class="hero_row">
+                    <div class="hero_col-1">
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso del lavoro esistente.</p>
+                        <button class="button blue_button">Inizia la tua prova gratuita</button>
+                        <p >Annulla in qualsisi momento</p>
+                        <span  class="flex" id="down-arrow"><i class="fa-solid fa-arrow-down"></i></span>
+                    </div>
+                    <div class="hero_col"></div>
+                </div>
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>
