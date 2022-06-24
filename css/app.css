@@ -274,7 +274,7 @@
         color: blue;
     }
 
-    .col_square{
+    .col_square, .col_text{
         display: flex;
         flex-wrap: wrap;
         flex-basis: calc(100% / 3);
@@ -294,3 +294,23 @@
         display: flex;
     }
     
+.col_text{
+    padding: 40px;
+    background-color: rgb(245, 245, 245);
+}
+.col_text img{
+    width: 50%;
+    /* margin-bottom: 35px; */
+}
+.img_central{
+    padding-bottom: 50px;
+}
+.col_text p{
+    margin-bottom: 50px;
+}
+.img_central::after{
+    content: "";
+    display: inline-block;
+    border: 2px solid black;
+    width: 100px;
+ }
