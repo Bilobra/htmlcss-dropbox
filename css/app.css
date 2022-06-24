@@ -1,219 +1,200 @@
 *{
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
-    font-family: 'Inter', sans-serif;
-}
-ul,ol,menu{
-    list-style:none;
-}
-nav a{
-    text-decoration: none;
-    color: currentColor;
-}
-button{
-    background-color: currentColor;
-    border: none;
-    color: currentColor;
-}
-/* general button */
-.button{
-    background-color: transparent;
-    height: 40px;
-    /* border: 1px solid black; */
-    text-align: left;
-    margin-right: auto;
-    font-size: 16px;
-}
-.blue_button{
-    color: white;
-    background-color: rgb(0, 97, 255);
-}
-#button-padding{
-    padding: 0 20px;
-}
-.hero_col-1 button{
-    padding: 5px;
-}
-header{
-    min-height: 80px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border-bottom: 1px solid black; */
-}
-.plane_card header{
-    min-height: 40px;
-}
-
-
-/* flex */
-
- nav ul, .flex{
-    display: flex;
-}
-
-nav li{
-    padding: 10px 20px;
-    font-size: 15px;
+    padding: 0;
+    }
+    html{
+        font-family: 'Open Sans', sans-serif;
+    }
+    img{
+        width: 100%;
+        display: block;
+    }
+    a{
+        text-decoration: none;
+        color: currentColor;
+    }
+    ul,ol,menu{
+        list-style: none;
+    }
     
-}
-.grow{
-    flex-grow: 1;
-    padding-left: 20px;
-}
-nav{
-    justify-content: space-between;
-   align-content: center;
-   text-align: center;
-   width: 100%;
-   padding-right: 10px;
-   padding-left: 10px;
-}
-
-/* section HERO */
-
-.hero{
-    padding-top: 90px;
-    padding-bottom: 25px;
-    background-color: rgb(180, 208, 231);
-}
-
-
-/* container */
-
-.container-large{
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.container-small{
-    width: 1000px;
-    margin: 0 auto;
-}
-
-/* row */
-
-.hero_row{
-    display: flex;
-}
-
-/* col */
-.hero_col-1 p {
-    font-size: 16px;
-    font-weight: lighter;
-}
-
-.hero_col-1{
-    width: 33%;
-    /* height: 400px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    line-height: 1.6;
-    padding-right: 14px;
-    gap: 40px;
-   
-}
-
-.hero_title{
-    font-size: 55px;
-    font-weight: bold;
-    padding-bottom:50px
-}
-
-#down-arrow{
-    width: 69px;
-    height: 69px;
-    font-size: 68px;
-}
-
-.hero_col-2{
-    width: 66%;
-    position: relative;
-}
-
-.hero_col-2 img{
-    width: 100%;
-    position: absolute;
-    top:0px;
-}
-
-/* section plane-business */
-.flex{
-    display: flex;
-}
-.input{
-    padding: 60px;
-    font-size: 15px;
-    font-weight: lighter;
-    display: flex;
-    gap: 20px;
-}
-.container-small h2{
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-}
-.plane-business{
-    padding-top: 100px;
-}
-
-.body_card h3{
-    font-size: 24px;
-    font-weight: bold;
-
-}
-.plane-row-card{
-    display: flex;
-    width: calc(100% / 3);
-    flex-direction: column;
-}
-
-.plane-row_col{
-    border: 1px solid rgb(237, 237, 238);
-}
-
-.plane_card main{
+    /* buttons */
+    .button{
+        line-height: 44px;
+        font-size: 18px;
+        padding: 0 16px;
+        text-align: center;
+    }
     
-    flex-direction: column;
-    gap: 30px;
-    padding: 0 20px;
-    padding-bottom: 150px;
-}
-
-
-.plane_card .body_card{
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 30px;
-    display: flex;
-
-}
-.title_card{
-    display: flex;
-    gap: 5px;
-}
-
-
-.body_card li{
-    gap: 20px;
-    display: flex;
-    padding: 15px;
-}
-
-.body_card{
-    padding-top: 60px;
-}
-.plane_card header{
-    border-bottom: 1px solid rgb(237, 237, 238);
-}
-
- .border-gray::after{
-    background: rgb(237, 237, 238);
-    content: "";
-    display: table;
-    width: 40px;
-    height: 1px;
-}
+    .button_blue{
+        background-color: blue;
+        color: white;
+    }
+    
+    a.button{
+        display: inline-block;
+    }
+    
+    
+    .container{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .container_lg{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    /* nav */
+    .main-header{
+        display: flex;
+        gap: 18px;
+        padding: 23px 18px;
+        align-items: center;
+    
+    }
+    .main-header .menu{
+        display: flex;
+    }
+    .main-header .main-nav{
+        margin-right: auto;
+    }
+    .logo-wrapper{
+        flex-shrink: 0;
+    }
+    
+    
+    .main-header  a {
+        display: block;
+        line-height: 35px;
+        padding: 0 16px;
+        white-space: nowrap;
+    }
+    
+    .main-header .menu-item.button-start{
+        background-color: rgb(0, 97, 255);
+        color: white;
+    }
+    
+    /* prima sezione */
+    
+    #hero{
+        background-color: rgb(180, 208, 231);
+        padding-top: 100px;
+    }
+    .hero_title{
+        font-size: 74px;
+        margin-bottom: 48px;
+    }
+    .col-4{
+        flex-basis: calc(100% / 3);
+    }
+    .col-8{
+        flex-basis: calc(100% /2);
+        flex-grow: 1;
+    }
+    
+    .hero_content{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+        padding-bottom: 20px;
+    }
+    .hero_content i{
+        margin-top: auto;
+        font-size: 64px;
+    }
+    
+     /*  seconda sezione */
+    #plan{
+        padding: 160px 0px 72px;
+    }
+    
+    .section_title{
+        font-size: 38px;
+        font-weight: bold;
+        margin-bottom: 48px;
+    }
+    
+    /* radio */
+    .radio-input .circle{
+        display: block;
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+    .radio-input{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .radio-wrapper{
+        gap: 64px;
+        margin-bottom: 40px;
+    }
+    
+    /* card */
+    .card{
+        border: 1px solid black;
+    }
+    .card_header{
+        border-bottom: 1 px solid black;
+        padding: 13px 0;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .card-wrapper *{
+       /* border: 1px solid black; */
+       padding: 20px;
+    }
+    .col-12{
+        flex-basis: calc(100% / 1);
+        border: 1px solid black;
+    }
+    .card-wrapper{
+        gap: 50px;
+    }
+    
+    .col{
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+    .card_body{
+        padding: 32px 24px;
+    }
+    
+    
+    .plan_title{
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .plan_price{
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+    
+    .plan_frequency{
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .plan-features{
+        margin-bottom: 40px;
+    }
+    .plan-features .feature{
+        display: flex;
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+    .card .button{
+        width: 100%;
+        font-size: 14px;
+    }
