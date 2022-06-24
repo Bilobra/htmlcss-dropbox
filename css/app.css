@@ -20,7 +20,7 @@
     
     /* buttons */
     .button{
-        line-height: 44px;
+        /* line-height: 44px; */
         font-size: 18px;
         padding: 0 16px;
         text-align: center;
@@ -198,3 +198,35 @@
         width: 100%;
         font-size: 14px;
     }
+
+    /* col-orizzontale */
+    .card-landscape{
+        display: flex;
+    
+    }
+
+
+
+    /* terza sezione */
+
+    .reverse{
+        flex-direction: row-reverse;
+    }
+
+    .col_partner-1{
+        flex-basis: calc(100% / 3);
+        padding-left:50px;
+    }
+
+    .col_partner-2{
+        flex-basis: calc(100% / 2);
+    flex-grow: 1;
+    }
+
+    .col_partner-1 .button{
+        margin-top: 40px;
+        border: 1px solid black;
+        padding: 10px 16px;
+    }
+
+    /* sezione 4  */
