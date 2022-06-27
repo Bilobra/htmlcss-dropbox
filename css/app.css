@@ -324,6 +324,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-basis: calc(100% / 3);
+        aspect-ratio: 1/1;
     }
 
     .square{
@@ -339,6 +340,12 @@
         aspect-ratio: 1/1;
         display: flex;
         filter: invert(1);
+    }
+    .logo-box{
+        display: flex;
+        aspect-ratio: 1/1;
+        justify-content: center;
+        align-items: center;
     }
     
 .col_text{
