@@ -364,10 +364,43 @@
     padding: 125px 0;
  }
 .col-g p{
+     color: rgb(99, 17, 69);
+}
+
+.big-title,
+.col-g p{
     font-size: 40px;
     font-weight: bold;
-    color: rgb(99, 17, 69);
 }
  .row-g{
     justify-content: space-between;
  }
+
+
+ /* settima sezione */
+
+.row-list{
+    justify-content: space-between;
+    flex-basis: 100%;
+    font-weight: bold;
+    gap: 100px;
+    /* padding: 39px 0; */
+    /* flex-direction: column; */
+}
+.faq .big-title{
+    padding-top: 160px;
+    margin-bottom: 60px;
+}
+
+#border-before{
+    border-top: 1px solid gray;
+   
+}
+
+
+
+.border-container{
+    border-top: 1px solid #BBBBBB;
+    border-bottom: 1px solid #BBBBBB;
+    padding: 50px 0;
+}
