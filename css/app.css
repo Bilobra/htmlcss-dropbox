@@ -121,7 +121,8 @@
     
      /*  seconda sezione */
     #plan{
-        padding: 160px 0px 72px;
+        padding-top: 160px;
+        margin-bottom: 150px;
     }
     
     .section_title{
@@ -156,6 +157,7 @@
         display: flex;
         justify-content: center;
         gap: 10px;
+        align-items: center;
     }
   
     .col-12{
@@ -232,6 +234,10 @@
         margin-bottom: 70px;
     }
 
+    .plan_content-secondary .feature i{
+        color: blue;
+    }
+
     
 
     /* col-orizzontale */
@@ -269,7 +275,7 @@
     }
 
     .section-3{
-        padding-bottom: 130px;
+        padding-bottom: 150px;
     }
 
     /* sezione 4  */
@@ -392,15 +398,65 @@
     margin-bottom: 60px;
 }
 
-#border-before{
-    border-top: 1px solid gray;
-   
+.faq{
+    margin-bottom: 150px;
 }
-
 
 
 .border-container{
     border-top: 1px solid #BBBBBB;
     border-bottom: 1px solid #BBBBBB;
     padding: 50px 0;
+}
+
+
+/* sezione otto */
+
+.main-footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 110px;
+}
+.function{
+    justify-content: space-between;
+    padding-bottom: 115px;
+}
+
+.col-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.col-list ul{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(187, 187, 187);
+}
+.col-list p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.select-row{
+    line-height: 124px;
+    gap: 10px;
+    font-size: 18px;
+    color: rgb(187, 187, 187);
+}
+.select{
+    font-size: 20px;
+    background-color: transparent;
+    color:rgb(187, 187, 187);
+    border-color: transparent;
+}
+
+.border-prova::before{
+    content: "";
+    display: block;
+    border: 1px solid rgb(187, 187, 187);
+    width: 140px;
 }
